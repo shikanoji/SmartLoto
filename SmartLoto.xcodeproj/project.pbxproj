@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D099A18EFBFE41623F08F92 /* Pods_SmartLotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7E06DCB638E7D9F07911EA /* Pods_SmartLotoTests.framework */; };
+		A9A0FF689F91298D9A6D31C2 /* Pods_SmartLoto_SmartLotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8571DC6C71C5460BC0825C0D /* Pods_SmartLoto_SmartLotoUITests.framework */; };
+		B6DEE8C94FC55F6FE3B537C1 /* Pods_SmartLoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7636D28F12F8027546499A /* Pods_SmartLoto.framework */; };
 		D77577BB259A1F2700295321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BA259A1F2700295321 /* AppDelegate.swift */; };
-		D77577BD259A1F2700295321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BC259A1F2700295321 /* SceneDelegate.swift */; };
 		D77577BF259A1F2700295321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BE259A1F2700295321 /* ViewController.swift */; };
 		D77577C2259A1F2700295321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77577C0259A1F2700295321 /* Main.storyboard */; };
 		D77577C5259A1F2700295321 /* SmartLoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */; };
@@ -16,6 +18,7 @@
 		D77577CA259A1F2800295321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77577C8259A1F2800295321 /* LaunchScreen.storyboard */; };
 		D77577D5259A1F2800295321 /* SmartLotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577D4259A1F2800295321 /* SmartLotoTests.swift */; };
 		D77577E0259A1F2900295321 /* SmartLotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577DF259A1F2900295321 /* SmartLotoUITests.swift */; };
+		D7757810259A265200295321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D775780F259A265200295321 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21BAE00C35489805B859B671 /* Pods-SmartLotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLotoTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartLotoTests/Pods-SmartLotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		418A570507EF78C52FFDDD5E /* Pods-SmartLoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLoto.release.xcconfig"; path = "Target Support Files/Pods-SmartLoto/Pods-SmartLoto.release.xcconfig"; sourceTree = "<group>"; };
+		8571DC6C71C5460BC0825C0D /* Pods_SmartLoto_SmartLotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLoto_SmartLotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F9B50535B8CAF83DBA5FBC /* Pods-SmartLoto-SmartLotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLoto-SmartLotoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartLoto-SmartLotoUITests/Pods-SmartLoto-SmartLotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		991873F3DE23F26B1E1D7ED2 /* Pods-SmartLoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLoto.debug.xcconfig"; path = "Target Support Files/Pods-SmartLoto/Pods-SmartLoto.debug.xcconfig"; sourceTree = "<group>"; };
+		AF7E06DCB638E7D9F07911EA /* Pods_SmartLotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7636D28F12F8027546499A /* Pods_SmartLoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C876DCB288497EE28C2F7150 /* Pods-SmartLoto-SmartLotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLoto-SmartLotoUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartLoto-SmartLotoUITests/Pods-SmartLoto-SmartLotoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D77577B7259A1F2700295321 /* SmartLoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77577BA259A1F2700295321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D77577BC259A1F2700295321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D77577BE259A1F2700295321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D77577C1259A1F2700295321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D77577C4259A1F2700295321 /* SmartLoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartLoto.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		D77577DB259A1F2900295321 /* SmartLotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77577DF259A1F2900295321 /* SmartLotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLotoUITests.swift; sourceTree = "<group>"; };
 		D77577E1259A1F2900295321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D775780F259A265200295321 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F675460565EBFD2A50C58AFB /* Pods-SmartLotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLotoTests.release.xcconfig"; path = "Target Support Files/Pods-SmartLotoTests/Pods-SmartLotoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DEE8C94FC55F6FE3B537C1 /* Pods_SmartLoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D099A18EFBFE41623F08F92 /* Pods_SmartLotoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A0FF689F91298D9A6D31C2 /* Pods_SmartLoto_SmartLotoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A3796B78CEBBAB6CB2F5082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7636D28F12F8027546499A /* Pods_SmartLoto.framework */,
+				8571DC6C71C5460BC0825C0D /* Pods_SmartLoto_SmartLotoUITests.framework */,
+				AF7E06DCB638E7D9F07911EA /* Pods_SmartLotoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D77577AE259A1F2700295321 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				D77577D3259A1F2800295321 /* SmartLotoTests */,
 				D77577DE259A1F2900295321 /* SmartLotoUITests */,
 				D77577B8259A1F2700295321 /* Products */,
+				F07F0FF4FA4C381188F035F4 /* Pods */,
+				7A3796B78CEBBAB6CB2F5082 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +129,13 @@
 			isa = PBXGroup;
 			children = (
 				D77577BA259A1F2700295321 /* AppDelegate.swift */,
-				D77577BC259A1F2700295321 /* SceneDelegate.swift */,
 				D77577BE259A1F2700295321 /* ViewController.swift */,
 				D77577C0259A1F2700295321 /* Main.storyboard */,
 				D77577C6259A1F2800295321 /* Assets.xcassets */,
 				D77577C8259A1F2800295321 /* LaunchScreen.storyboard */,
 				D77577CB259A1F2800295321 /* Info.plist */,
 				D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */,
+				D775780F259A265200295321 /* GoogleService-Info.plist */,
 			);
 			path = SmartLoto;
 			sourceTree = "<group>";
@@ -131,6 +158,19 @@
 			path = SmartLotoUITests;
 			sourceTree = "<group>";
 		};
+		F07F0FF4FA4C381188F035F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				991873F3DE23F26B1E1D7ED2 /* Pods-SmartLoto.debug.xcconfig */,
+				418A570507EF78C52FFDDD5E /* Pods-SmartLoto.release.xcconfig */,
+				98F9B50535B8CAF83DBA5FBC /* Pods-SmartLoto-SmartLotoUITests.debug.xcconfig */,
+				C876DCB288497EE28C2F7150 /* Pods-SmartLoto-SmartLotoUITests.release.xcconfig */,
+				21BAE00C35489805B859B671 /* Pods-SmartLotoTests.debug.xcconfig */,
+				F675460565EBFD2A50C58AFB /* Pods-SmartLotoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77577E4259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLoto" */;
 			buildPhases = (
+				2BA1E0D5AA949D07D7A040D3 /* [CP] Check Pods Manifest.lock */,
 				D77577B3259A1F2700295321 /* Sources */,
 				D77577B4259A1F2700295321 /* Frameworks */,
 				D77577B5259A1F2700295321 /* Resources */,
+				DBCEEF5AD491CD93090918F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77577E7259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoTests" */;
 			buildPhases = (
+				ED368B433F57395615F62CE7 /* [CP] Check Pods Manifest.lock */,
 				D77577CC259A1F2800295321 /* Sources */,
 				D77577CD259A1F2800295321 /* Frameworks */,
 				D77577CE259A1F2800295321 /* Resources */,
@@ -173,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77577EA259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoUITests" */;
 			buildPhases = (
+				1D48B9F4BA24E40DE670A2F9 /* [CP] Check Pods Manifest.lock */,
 				D77577D7259A1F2900295321 /* Sources */,
 				D77577D8259A1F2900295321 /* Frameworks */,
 				D77577D9259A1F2900295321 /* Resources */,
+				030ED529941F2FD26B331926 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77577CA259A1F2800295321 /* LaunchScreen.storyboard in Resources */,
+				D7757810259A265200295321 /* GoogleService-Info.plist in Resources */,
 				D77577C7259A1F2800295321 /* Assets.xcassets in Resources */,
 				D77577C2259A1F2700295321 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		030ED529941F2FD26B331926 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLoto-SmartLotoUITests/Pods-SmartLoto-SmartLotoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLoto-SmartLotoUITests/Pods-SmartLoto-SmartLotoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartLoto-SmartLotoUITests/Pods-SmartLoto-SmartLotoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D48B9F4BA24E40DE670A2F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartLoto-SmartLotoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA1E0D5AA949D07D7A040D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartLoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCEEF5AD491CD93090918F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLoto/Pods-SmartLoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLoto/Pods-SmartLoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartLoto/Pods-SmartLoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED368B433F57395615F62CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartLotoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D77577B3259A1F2700295321 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +412,6 @@
 			files = (
 				D77577BF259A1F2700295321 /* ViewController.swift in Sources */,
 				D77577BB259A1F2700295321 /* AppDelegate.swift in Sources */,
-				D77577BD259A1F2700295321 /* SceneDelegate.swift in Sources */,
 				D77577C5259A1F2700295321 /* SmartLoto.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +585,14 @@
 		};
 		D77577E5259A1F2900295321 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991873F3DE23F26B1E1D7ED2 /* Pods-SmartLoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C892MM94MB;
 				INFOPLIST_FILE = SmartLoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +606,14 @@
 		};
 		D77577E6259A1F2900295321 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418A570507EF78C52FFDDD5E /* Pods-SmartLoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C892MM94MB;
 				INFOPLIST_FILE = SmartLoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +627,7 @@
 		};
 		D77577E8259A1F2900295321 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BAE00C35489805B859B671 /* Pods-SmartLotoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +650,7 @@
 		};
 		D77577E9259A1F2900295321 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F675460565EBFD2A50C58AFB /* Pods-SmartLotoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +673,7 @@
 		};
 		D77577EB259A1F2900295321 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F9B50535B8CAF83DBA5FBC /* Pods-SmartLoto-SmartLotoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +694,7 @@
 		};
 		D77577EC259A1F2900295321 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C876DCB288497EE28C2F7150 /* Pods-SmartLoto-SmartLotoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
