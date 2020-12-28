@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77577BB259A1F2700295321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BA259A1F2700295321 /* AppDelegate.swift */; };
+		D77577BD259A1F2700295321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BC259A1F2700295321 /* SceneDelegate.swift */; };
+		D77577BF259A1F2700295321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577BE259A1F2700295321 /* ViewController.swift */; };
+		D77577C2259A1F2700295321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77577C0259A1F2700295321 /* Main.storyboard */; };
+		D77577C5259A1F2700295321 /* SmartLoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */; };
+		D77577C7259A1F2800295321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77577C6259A1F2800295321 /* Assets.xcassets */; };
+		D77577CA259A1F2800295321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77577C8259A1F2800295321 /* LaunchScreen.storyboard */; };
+		D77577D5259A1F2800295321 /* SmartLotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577D4259A1F2800295321 /* SmartLotoTests.swift */; };
+		D77577E0259A1F2900295321 /* SmartLotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77577DF259A1F2900295321 /* SmartLotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D77577D1259A1F2800295321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77577AF259A1F2700295321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77577B6259A1F2700295321;
+			remoteInfo = SmartLoto;
+		};
+		D77577DC259A1F2900295321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77577AF259A1F2700295321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77577B6259A1F2700295321;
+			remoteInfo = SmartLoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D77577B7259A1F2700295321 /* SmartLoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77577BA259A1F2700295321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77577BC259A1F2700295321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D77577BE259A1F2700295321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D77577C1259A1F2700295321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77577C4259A1F2700295321 /* SmartLoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartLoto.xcdatamodel; sourceTree = "<group>"; };
+		D77577C6259A1F2800295321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77577C9259A1F2800295321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77577CB259A1F2800295321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77577D0259A1F2800295321 /* SmartLotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77577D4259A1F2800295321 /* SmartLotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLotoTests.swift; sourceTree = "<group>"; };
+		D77577D6259A1F2800295321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77577DB259A1F2900295321 /* SmartLotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77577DF259A1F2900295321 /* SmartLotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLotoUITests.swift; sourceTree = "<group>"; };
+		D77577E1259A1F2900295321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77577B4259A1F2700295321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577CD259A1F2800295321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577D8259A1F2900295321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77577AE259A1F2700295321 = {
+			isa = PBXGroup;
+			children = (
+				D77577B9259A1F2700295321 /* SmartLoto */,
+				D77577D3259A1F2800295321 /* SmartLotoTests */,
+				D77577DE259A1F2900295321 /* SmartLotoUITests */,
+				D77577B8259A1F2700295321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77577B8259A1F2700295321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77577B7259A1F2700295321 /* SmartLoto.app */,
+				D77577D0259A1F2800295321 /* SmartLotoTests.xctest */,
+				D77577DB259A1F2900295321 /* SmartLotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77577B9259A1F2700295321 /* SmartLoto */ = {
+			isa = PBXGroup;
+			children = (
+				D77577BA259A1F2700295321 /* AppDelegate.swift */,
+				D77577BC259A1F2700295321 /* SceneDelegate.swift */,
+				D77577BE259A1F2700295321 /* ViewController.swift */,
+				D77577C0259A1F2700295321 /* Main.storyboard */,
+				D77577C6259A1F2800295321 /* Assets.xcassets */,
+				D77577C8259A1F2800295321 /* LaunchScreen.storyboard */,
+				D77577CB259A1F2800295321 /* Info.plist */,
+				D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */,
+			);
+			path = SmartLoto;
+			sourceTree = "<group>";
+		};
+		D77577D3259A1F2800295321 /* SmartLotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D77577D4259A1F2800295321 /* SmartLotoTests.swift */,
+				D77577D6259A1F2800295321 /* Info.plist */,
+			);
+			path = SmartLotoTests;
+			sourceTree = "<group>";
+		};
+		D77577DE259A1F2900295321 /* SmartLotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D77577DF259A1F2900295321 /* SmartLotoUITests.swift */,
+				D77577E1259A1F2900295321 /* Info.plist */,
+			);
+			path = SmartLotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77577B6259A1F2700295321 /* SmartLoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77577E4259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLoto" */;
+			buildPhases = (
+				D77577B3259A1F2700295321 /* Sources */,
+				D77577B4259A1F2700295321 /* Frameworks */,
+				D77577B5259A1F2700295321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLoto;
+			productName = SmartLoto;
+			productReference = D77577B7259A1F2700295321 /* SmartLoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77577CF259A1F2800295321 /* SmartLotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77577E7259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoTests" */;
+			buildPhases = (
+				D77577CC259A1F2800295321 /* Sources */,
+				D77577CD259A1F2800295321 /* Frameworks */,
+				D77577CE259A1F2800295321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77577D2259A1F2800295321 /* PBXTargetDependency */,
+			);
+			name = SmartLotoTests;
+			productName = SmartLotoTests;
+			productReference = D77577D0259A1F2800295321 /* SmartLotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D77577DA259A1F2900295321 /* SmartLotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77577EA259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoUITests" */;
+			buildPhases = (
+				D77577D7259A1F2900295321 /* Sources */,
+				D77577D8259A1F2900295321 /* Frameworks */,
+				D77577D9259A1F2900295321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77577DD259A1F2900295321 /* PBXTargetDependency */,
+			);
+			name = SmartLotoUITests;
+			productName = SmartLotoUITests;
+			productReference = D77577DB259A1F2900295321 /* SmartLotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77577AF259A1F2700295321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D77577B6259A1F2700295321 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D77577CF259A1F2800295321 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D77577B6259A1F2700295321;
+					};
+					D77577DA259A1F2900295321 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D77577B6259A1F2700295321;
+					};
+				};
+			};
+			buildConfigurationList = D77577B2259A1F2700295321 /* Build configuration list for PBXProject "SmartLoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77577AE259A1F2700295321;
+			productRefGroup = D77577B8259A1F2700295321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77577B6259A1F2700295321 /* SmartLoto */,
+				D77577CF259A1F2800295321 /* SmartLotoTests */,
+				D77577DA259A1F2900295321 /* SmartLotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77577B5259A1F2700295321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77577CA259A1F2800295321 /* LaunchScreen.storyboard in Resources */,
+				D77577C7259A1F2800295321 /* Assets.xcassets in Resources */,
+				D77577C2259A1F2700295321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577CE259A1F2800295321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577D9259A1F2900295321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77577B3259A1F2700295321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77577BF259A1F2700295321 /* ViewController.swift in Sources */,
+				D77577BB259A1F2700295321 /* AppDelegate.swift in Sources */,
+				D77577BD259A1F2700295321 /* SceneDelegate.swift in Sources */,
+				D77577C5259A1F2700295321 /* SmartLoto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577CC259A1F2800295321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77577D5259A1F2800295321 /* SmartLotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77577D7259A1F2900295321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77577E0259A1F2900295321 /* SmartLotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77577D2259A1F2800295321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77577B6259A1F2700295321 /* SmartLoto */;
+			targetProxy = D77577D1259A1F2800295321 /* PBXContainerItemProxy */;
+		};
+		D77577DD259A1F2900295321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77577B6259A1F2700295321 /* SmartLoto */;
+			targetProxy = D77577DC259A1F2900295321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D77577C0259A1F2700295321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77577C1259A1F2700295321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77577C8259A1F2800295321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77577C9259A1F2800295321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77577E2259A1F2900295321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D77577E3259A1F2900295321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77577E5259A1F2900295321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77577E6259A1F2900295321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D77577E8259A1F2900295321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLotoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLoto.app/SmartLoto";
+			};
+			name = Debug;
+		};
+		D77577E9259A1F2900295321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLotoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLoto.app/SmartLoto";
+			};
+			name = Release;
+		};
+		D77577EB259A1F2900295321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartLoto;
+			};
+			name = Debug;
+		};
+		D77577EC259A1F2900295321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C892MM94MB;
+				INFOPLIST_FILE = SmartLotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Comet.SmartLotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartLoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77577B2259A1F2700295321 /* Build configuration list for PBXProject "SmartLoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77577E2259A1F2900295321 /* Debug */,
+				D77577E3259A1F2900295321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77577E4259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77577E5259A1F2900295321 /* Debug */,
+				D77577E6259A1F2900295321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77577E7259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77577E8259A1F2900295321 /* Debug */,
+				D77577E9259A1F2900295321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77577EA259A1F2900295321 /* Build configuration list for PBXNativeTarget "SmartLotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77577EB259A1F2900295321 /* Debug */,
+				D77577EC259A1F2900295321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D77577C4259A1F2700295321 /* SmartLoto.xcdatamodel */,
+			);
+			currentVersion = D77577C4259A1F2700295321 /* SmartLoto.xcdatamodel */;
+			path = SmartLoto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D77577AF259A1F2700295321 /* Project object */;
+}
