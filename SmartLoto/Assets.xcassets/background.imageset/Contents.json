@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pexels-waldemar-brandt-5550130.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pexels-waldemar-brandt-5550131.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pexels-waldemar-brandt-5550132.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

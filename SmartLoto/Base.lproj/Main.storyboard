@@ -1,24 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17502"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SmartLoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wpa-d0-BdG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="e4m-TL-gWB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mO7-LM-EnL">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yO0-Pp-Zfy">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffl-G7-JAE">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="500" id="As8-2e-w7L"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="PaL-77-hFw" kind="embed" id="Fle-0M-ZBu"/>
+                                                </connections>
+                                            </containerView>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S36-xT-LtU">
+                                                <rect key="frame" x="0.0" y="500" width="414" height="500"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="500" id="2E9-3j-mso"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="xog-TO-dMJ" kind="embed" id="4AF-HO-GgJ"/>
+                                                </connections>
+                                            </containerView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yO0-Pp-Zfy" firstAttribute="top" secondItem="mO7-LM-EnL" secondAttribute="top" id="4h9-eX-XHw"/>
+                                    <constraint firstItem="yO0-Pp-Zfy" firstAttribute="leading" secondItem="mO7-LM-EnL" secondAttribute="leading" id="fjq-PL-g8g"/>
+                                    <constraint firstAttribute="trailing" secondItem="yO0-Pp-Zfy" secondAttribute="trailing" id="j7n-aH-mg5"/>
+                                    <constraint firstAttribute="bottom" secondItem="yO0-Pp-Zfy" secondAttribute="bottom" id="plO-bE-cwe"/>
+                                    <constraint firstItem="yO0-Pp-Zfy" firstAttribute="centerX" secondItem="mO7-LM-EnL" secondAttribute="centerX" id="t1s-RW-vm7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QRr-Y5-qWO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QRr-Y5-qWO" firstAttribute="bottom" secondItem="mO7-LM-EnL" secondAttribute="bottom" id="CBG-2o-Rcl"/>
+                            <constraint firstItem="mO7-LM-EnL" firstAttribute="trailing" secondItem="QRr-Y5-qWO" secondAttribute="trailing" id="NRQ-4r-GSa"/>
+                            <constraint firstAttribute="leading" secondItem="e4m-TL-gWB" secondAttribute="leading" id="OIc-Ix-3Yn"/>
+                            <constraint firstItem="e4m-TL-gWB" firstAttribute="trailing" secondItem="Wpa-d0-BdG" secondAttribute="trailing" id="Paa-Xm-zy6"/>
+                            <constraint firstAttribute="top" secondItem="e4m-TL-gWB" secondAttribute="top" id="PpU-wf-IGm"/>
+                            <constraint firstItem="mO7-LM-EnL" firstAttribute="top" secondItem="QRr-Y5-qWO" secondAttribute="top" id="QRy-nP-vEk"/>
+                            <constraint firstItem="mO7-LM-EnL" firstAttribute="leading" secondItem="QRr-Y5-qWO" secondAttribute="leading" id="Wkc-c7-4eN"/>
+                            <constraint firstItem="e4m-TL-gWB" firstAttribute="bottom" secondItem="Wpa-d0-BdG" secondAttribute="bottom" id="gHR-Cf-U7M"/>
+                            <constraint firstItem="mO7-LM-EnL" firstAttribute="centerX" secondItem="QRr-Y5-qWO" secondAttribute="centerX" id="k7B-dL-1MW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="93.75"/>
+        </scene>
+        <!--Statistic View Controller-->
+        <scene sceneID="8Ih-Da-K0k">
+            <objects>
+                <viewController id="PaL-77-hFw" customClass="StatisticViewController" customModule="SmartLoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rus-Hn-D7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tiL-LM-xUE">
+                                <rect key="frame" x="15" y="15" width="384" height="455"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thông số trong ngày" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAH-nY-Arl">
+                                        <rect key="frame" x="119" y="15" width="146" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" systemColor="systemRedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzT-0Z-YWq" userLabel="Date Label">
+                                        <rect key="frame" x="192" y="42" width="0.0" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="pOB-Eg-4FR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fzT-0Z-YWq" firstAttribute="centerX" secondItem="tiL-LM-xUE" secondAttribute="centerX" id="Iku-7n-6c9"/>
+                                    <constraint firstItem="VAH-nY-Arl" firstAttribute="top" secondItem="tiL-LM-xUE" secondAttribute="top" constant="15" id="WEQ-Lf-k0W"/>
+                                    <constraint firstItem="fzT-0Z-YWq" firstAttribute="top" secondItem="VAH-nY-Arl" secondAttribute="bottom" constant="10" id="WVG-QD-qlg"/>
+                                    <constraint firstItem="VAH-nY-Arl" firstAttribute="centerX" secondItem="tiL-LM-xUE" secondAttribute="centerX" id="eot-oW-6t1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tiL-LM-xUE" secondAttribute="trailing" constant="15" id="3OY-Qe-BCV"/>
+                            <constraint firstItem="tiL-LM-xUE" firstAttribute="top" secondItem="Rus-Hn-D7Z" secondAttribute="top" constant="15" id="94a-tR-51K"/>
+                            <constraint firstItem="tiL-LM-xUE" firstAttribute="leading" secondItem="Rus-Hn-D7Z" secondAttribute="leading" constant="15" id="uaE-Ux-nxW"/>
+                            <constraint firstAttribute="bottom" secondItem="tiL-LM-xUE" secondAttribute="bottom" constant="30" id="vj3-db-sbo"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="500"/>
+                    <connections>
+                        <outlet property="contentView" destination="tiL-LM-xUE" id="nhL-zv-j1D"/>
+                        <outlet property="dateLabel" destination="fzT-0Z-YWq" id="QrB-za-1dJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8a-IP-GXB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.85507246376824" y="-552.45535714285711"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="qqr-VZ-kwf">
+            <objects>
+                <viewController id="xog-TO-dMJ" customClass="SearchViewController" customModule="SmartLoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ga2-Sl-3Sb">
+                        <rect key="frame" x="0.0" y="0.0" width="410" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <size key="freeformSize" width="410" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7vx-Iw-tpK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="917" y="107"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="2975.5" height="1689"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
