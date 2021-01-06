@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        Global.shared.loadLastestDataIfNeeded()
         return true
     }
-
 
     // MARK: - Core Data stack
 

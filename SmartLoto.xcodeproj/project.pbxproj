@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		06DBF065259B18150057DBD9 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DBF064259B18140057DBD9 /* StatisticViewController.swift */; };
 		06DBF06A259B18260057DBD9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DBF069259B18260057DBD9 /* SearchViewController.swift */; };
+		06DED84425A5B946002FA814 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DED84325A5B946002FA814 /* UserDefaultManager.swift */; };
+		06DED84925A5BB07002FA814 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DED84825A5BB07002FA814 /* Global.swift */; };
+		06DED85425A5BCEA002FA814 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DED85325A5BCEA002FA814 /* FirebaseHelper.swift */; };
+		06DED85925A5BCF8002FA814 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DED85825A5BCF8002FA814 /* Record.swift */; };
 		3D099A18EFBFE41623F08F92 /* Pods_SmartLotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7E06DCB638E7D9F07911EA /* Pods_SmartLotoTests.framework */; };
 		A9A0FF689F91298D9A6D31C2 /* Pods_SmartLoto_SmartLotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8571DC6C71C5460BC0825C0D /* Pods_SmartLoto_SmartLotoUITests.framework */; };
 		B6DEE8C94FC55F6FE3B537C1 /* Pods_SmartLoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7636D28F12F8027546499A /* Pods_SmartLoto.framework */; };
@@ -43,6 +47,10 @@
 /* Begin PBXFileReference section */
 		06DBF064259B18140057DBD9 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		06DBF069259B18260057DBD9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		06DED84325A5B946002FA814 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		06DED84825A5BB07002FA814 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		06DED85325A5BCEA002FA814 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		06DED85825A5BCF8002FA814 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		21BAE00C35489805B859B671 /* Pods-SmartLotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLotoTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartLotoTests/Pods-SmartLotoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		418A570507EF78C52FFDDD5E /* Pods-SmartLoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLoto.release.xcconfig"; path = "Target Support Files/Pods-SmartLoto/Pods-SmartLoto.release.xcconfig"; sourceTree = "<group>"; };
 		8571DC6C71C5460BC0825C0D /* Pods_SmartLoto_SmartLotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLoto_SmartLotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +105,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06DED85025A5BC5E002FA814 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				06DED84825A5BB07002FA814 /* Global.swift */,
+				06DED84325A5B946002FA814 /* UserDefaultManager.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		06DED85125A5BC69002FA814 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D77577BE259A1F2700295321 /* ViewController.swift */,
+				06DBF064259B18140057DBD9 /* StatisticViewController.swift */,
+				06DBF069259B18260057DBD9 /* SearchViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		06DED85225A5BCB5002FA814 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				06DED85825A5BCF8002FA814 /* Record.swift */,
+				06DED85325A5BCEA002FA814 /* FirebaseHelper.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		7A3796B78CEBBAB6CB2F5082 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,16 +168,16 @@
 		D77577B9259A1F2700295321 /* SmartLoto */ = {
 			isa = PBXGroup;
 			children = (
+				06DED85225A5BCB5002FA814 /* Firebase */,
+				06DED85125A5BC69002FA814 /* UI */,
+				06DED85025A5BC5E002FA814 /* Global */,
 				D77577BA259A1F2700295321 /* AppDelegate.swift */,
-				D77577BE259A1F2700295321 /* ViewController.swift */,
 				D77577C0259A1F2700295321 /* Main.storyboard */,
 				D77577C6259A1F2800295321 /* Assets.xcassets */,
 				D77577C8259A1F2800295321 /* LaunchScreen.storyboard */,
 				D77577CB259A1F2800295321 /* Info.plist */,
 				D77577C3259A1F2700295321 /* SmartLoto.xcdatamodeld */,
 				D775780F259A265200295321 /* GoogleService-Info.plist */,
-				06DBF064259B18140057DBD9 /* StatisticViewController.swift */,
-				06DBF069259B18260057DBD9 /* SearchViewController.swift */,
 			);
 			path = SmartLoto;
 			sourceTree = "<group>";
@@ -416,11 +452,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DED85425A5BCEA002FA814 /* FirebaseHelper.swift in Sources */,
 				06DBF06A259B18260057DBD9 /* SearchViewController.swift in Sources */,
+				06DED85925A5BCF8002FA814 /* Record.swift in Sources */,
+				06DED84425A5B946002FA814 /* UserDefaultManager.swift in Sources */,
 				D77577BF259A1F2700295321 /* ViewController.swift in Sources */,
 				D77577BB259A1F2700295321 /* AppDelegate.swift in Sources */,
 				D77577C5259A1F2700295321 /* SmartLoto.xcdatamodeld in Sources */,
 				06DBF065259B18150057DBD9 /* StatisticViewController.swift in Sources */,
+				06DED84925A5BB07002FA814 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

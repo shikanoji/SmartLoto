@@ -10,7 +10,7 @@ import UIKit
 class StatisticViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var dateLabel: UILabel!
-    let dateFormatter = DateFormatter()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,9 +39,7 @@ class StatisticViewController: UIViewController {
           vibrancyView.centerYAnchor.constraint(equalTo: blurView.contentView.centerYAnchor)
           ])
         
-        dateFormatter.dateFormat = "dd-MM-yyyy"
-        let dateString = dateFormatter.string(from: Date())
-        dateLabel.text = dateString
+        dateLabel.text = Global.shared.getCurrentDateString()
         // Do any additional setup after loading the view.
     }
     
